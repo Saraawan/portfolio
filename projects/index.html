@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sara's portfolio</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/skin/color-1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <!-------------style switcher--------->
+    <link
+      rel="stylesheet"
+      href="CSS/skin/color-1.css"
+      class="alternate-style"
+      title="color-1"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="CSS/skin/color-2.css"
+      class="alternate-style"
+      title="color-2"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="CSS/skin/color-3.css"
+      class="alternate-style"
+      title="color-3"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="CSS/skin/color-4.css"
+      class="alternate-style"
+      title="color-4"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="CSS/skin/color-5.css"
+      class="alternate-style"
+      title="color-5"
+      disabled
+    />
+    <link rel="stylesheet" href="css/style-switcher.css" />
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase.js"></script>
+    <script type="module" src="js/mail.js"></script>
+  </head>
+
+  <body>
+    <div class="main-container">
+      <div class="aside">
+        <div class="logo">
+          <a href="#"><span>S</span>ara</a>
+        </div>
+        <div class="nav-toggle">
+          <span></span>
+        </div>
+        <ul class="nav">
+          <li>
+            <a href="#home" class="active"><i class="fa fa-home"></i>Home</a>
+          </li>
+          <li>
+            <a href="#about"><i class="fa fa-user"></i>About</a>
+          </li>
+          <li>
+            <a href="#skill"><i class="fa fa-list"></i>Skills</a>
+          </li>
+          <li>
+            <a href="#project"><i class="fa fa-briefcase"></i>Projects</a>
+          </li>
+          <li>
+            <a href="#contact"><i class="fa fa-comments"></i>Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- =============== Aside end==========-->
+      <!-- =============== Main content start==========-->
+      <div class="main-content">
+        <!-- ====Home Section Start========-->
+
+        <section class="home section" id="home">
+          <div class="container">
+            <div class="row">
+              <div class="home-info padd-15">
+                <h3 class="hello">
+                  Hello, My name is <span class="name">Sara Tariq</span>
+                </h3>
+                <h3 class="my-profession">
+                  I' m a <span class="typing">web designer</span>
+                </h3>
+                <p>
+                  Ambitious Information Technology student with a focus on
+                  Embedded Systems, currently pursuing a Bachelor's at Bahria
+                  University.I am driven to contribute to impactful projects
+                  while continuously enhancing my skills in a dynamic
+                  environment.
+                </p>
+                <a href="mailto:saratari62@gmail.com" class="btn hire-me">
+                  Hire Me</a
+                >
+                <a href="images/Sara Tariq's Resume.pdf" class="btn hire-me">
+                  Download CV</a
+                >
+                <div class="social-media">
+                  <a href="tel:+9303080017227" class="phone" target="_blank"
+                    ><i class="fas fa-phone"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/in/awansara/"
+                    class="linkedin"
+                    target="_blank"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                  <a
+                    href="https://github.com/Saraawan"
+                    class="github"
+                    target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/yourprofile"
+                    class="facebook"
+                    target="_blank"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                </div>
+              </div>
+
+              <div class="home-img padd-15">
+                <img src="images/sara profile.jpeg" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--================home section end-==============-->
+        <!--================About section start-==============-->
+        <section class="about section" id="about">
+          <div class="container">
+            <div class="row">
+              <div class="section-tittle padd-15">
+                <h2>About<span> Me</span></h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="about-content padd-15">
+                <div class="row">
+                  <div class="about-text padd-15">
+                    <h3>I' m SAra TAriq and <span>web developer</span></h3>
+                    <p>
+                      I am driven to contribute to impactful projects while
+                      continuously enhancing my skills in a dynamic environment.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="personal-info padd-15">
+                    <div class="row">
+                      <div class="info-item padd-15">
+                        <p>Name: <span>SARA TARIQ</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Age: <span>22</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Address: <span>street 18 karachi.</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Email: <span>saratari62@gmail.com</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="education padd-15">
+                    <h3 class="tittle">Education</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <!--=====timeline item==========-->
+                          <div class="timeline-item">
+                            <div class="circle-dot">
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i>2018
+                              </h3>
+                              <h4 class="timeline-tittle">matriculation</h4>
+                              <p class="timeline-text">
+                                from City Public School
+                              </p>
+                            </div>
+                          </div>
+                          <!--=====timeline item==========-->
+                          <div class="timeline-item">
+                            <div class="circle-dot">
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i>2018 -2020
+                              </h3>
+                              <h4 class="timeline-tittle">Intermediate</h4>
+                              <p class="timeline-text">
+                                from Khatoon-e-Pakistan
+                              </p>
+                            </div>
+                          </div>
+                          <!--=====timeline item==========-->
+                          <div class="timeline-item">
+                            <div class="circle-dot">
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i>Inprogress
+                              </h3>
+                              <h4 class="timeline-tittle">
+                                Bachelors in Information Technology
+                              </h4>
+                              <p class="timeline-text">
+                                from Bahria University Karachi
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="experience padd-15">
+                    <h3 class="tittle">Certification</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <!--=====timeline item==========-->
+                          <div class="timeline-item">
+                            <div class="circle-dot">
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i>2024
+                              </h3>
+                              <h4 class="timeline-tittle">Adobe Photoshop</h4>
+                              <p class="timeline-text">
+                                <a
+                                  href="https://www.udemy.com/certificate/UC-0a46c824-55c6-4a60-9532-51b7a961b96c/"
+                                >
+                                  Ultimate Adobe Photoshop CC Masterclass Basics
+                                  To Advanced</a
+                                >
+                              </p>
+                            </div>
+                          </div>
+                          <!--=====timeline item==========-->
+                          <div class="timeline-item">
+                            <div class="circle-dot">
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i>2023
+                              </h3>
+                              <h4 class="timeline-tittle">
+                                HTML5 & CSS3 Complete Course
+                              </h4>
+                              <p class="timeline-text">
+                                <a
+                                  href="https://www.udemy.com/certificate/UC-148a68f2-964e-4ed2-9d8f-01f7fce62ac7/"
+                                >
+                                  build websites like a pro
+                                </a>
+                              </p>
+                            </div>
+                          </div>
+                          <!--=====timeline item==========-->
+                          <div class="timeline-item">
+                            <div class="circle-dot">
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i>2024
+                              </h3>
+                              <h4 class="timeline-tittle">java</h4>
+                              <p class="timeline-text">
+                                <a
+                                  href="https://www.udemy.com/certificate/UC-42a3d8e9-32c1-4e64-a315-58d58914dc42/"
+                                >
+                                  Project Development Using JAVA for Beginners
+                                </a>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--===========About section end====================-->
+
+        <!--===========skill section start====================-->
+
+        <section class="skill section" id="skill">
+          <div class="container">
+            <div class="row">
+              <div class="section-tittle padd-15">
+                <h2>My<span>Skills</span></h2>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Technical Skills -->
+              <div class="col-md-6">
+                <h1 class="heading11">Technical skills</h1>
+                <div class="Technical-bars">
+                  <!-- Programming Languages -->
+                  <h3 class="heading1">Programming Languages</h3>
+                  <div class="bar">
+                    <i class="fab fa-cuttlefish"></i>
+                    <div class="info">
+                      <span>C++</span>
+                    </div>
+                    <div class="progress-line cpp">
+                      <span style="width: 60%"></span>
+                      <div class="percentage-label">60%</div>
+                    </div>
+                  </div>
+                  <div class="bar">
+                    <i class="fab fa-java"></i>
+                    <div class="info">
+                      <span>Java</span>
+                    </div>
+                    <div class="progress-line java">
+                      <span style="width: 85%"></span>
+                      <div class="percentage-label">85%</div>
+                    </div>
+                  </div>
+                  <div class="bar">
+                    <i class="fab fa-python"></i>
+                    <div class="info">
+                      <span>Python</span>
+                    </div>
+                    <div class="progress-line Python">
+                      <span style="width: 65%"></span>
+                      <div class="percentage-label">65%</div>
+                    </div>
+                  </div>
+                  <!-- Add more bars as needed -->
+                  <h3 class="heading1">web development</h3>
+                  <div class="bar">
+                    <i class="fab fa-html5"></i>
+                    <div class="info">
+                      <span>HTML</span>
+                    </div>
+                    <div class="progress-line phpmyadmin">
+                      <span style="width: 85%"></span>
+                      <div class="percentage-label">85%</div>
+                    </div>
+                  </div>
+                  <div class="bar">
+                    <i class="fab fa-css3-alt"></i>
+                    <div class="info">
+                      <span>CSS</span>
+                    </div>
+                    <div class="progress-line phpmyadmin">
+                      <span style="width: 85%"></span>
+                      <div class="percentage-label">85%</div>
+                    </div>
+                  </div>
+                  <div class="bar">
+                    <i class="fab fa-js"></i>
+                    <div class="info">
+                      <span>JavaScript</span>
+                    </div>
+                    <div class="progress-line phpmyadmin">
+                      <span style="width: 75%"></span>
+                      <div class="percentage-label">75%</div>
+                    </div>
+                  </div>
+                  <div class="bar">
+                    <i class="fab fa-js-square"></i>
+                    <div class="info">
+                      <span>TypeScript</span>
+                    </div>
+                    <div class="progress-line phpmyadmin">
+                      <span style="width: 65%"></span>
+                      <div class="percentage-label">65%</div>
+                    </div>
+                  </div>
+                  <h3 class="heading1">Database Management</h3>
+                  <div class="bar">
+                    <i class="fas fa-database"></i>
+                    <div class="info">
+                      <span>PhpmyAdmin</span>
+                    </div>
+                    <div class="progress-line phpmyadmin">
+                      <span style="width: 80%"></span>
+                      <div class="percentage-label">80%</div>
+                    </div>
+                  </div>
+                  <div class="bar">
+                    <i class="fas fa-database"></i>
+                    <div class="info">
+                      <span>Ms ACCESS</span>
+                    </div>
+                    <div class="progress-line sql">
+                      <span style="width: 85%"></span>
+                      <div class="percentage-label">85%</div>
+                    </div>
+                  </div>
+                  <h3 class="heading1">Graphic & Design</h3>
+                  <div class="bar">
+                    <i class="fas fa-paint-brush"></i>
+                    <div class="info">
+                      <span>Canva</span>
+                    </div>
+                    <div class="progress-line canva">
+                      <span style="width: 90%"></span>
+                      <div class="percentage-label">90%</div>
+                    </div>
+                  </div>
+                  <div class="bar">
+                    <i class="fab fa-figma"></i>
+                    <div class="info">
+                      <span>Figma</span>
+                    </div>
+                    <div class="progress-line figma">
+                      <span style="width: 80%"></span>
+                      <div class="percentage-label">80%</div>
+                    </div>
+                  </div>
+                  <div class="bar">
+                    <i class="fas fa-paint-brush"></i>
+                    <div class="info">
+                      <span>Adobe photoshop</span>
+                    </div>
+                    <div class="progress-line adobe photoshop">
+                      <span style="width: 80%"></span>
+                      <div class="percentage-label">80%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Professional Skills -->
+              <div class="col-md-6">
+                <h1 class="heading1">Professional skills</h1>
+                <div class="professional-bars">
+                  <div class="radial-bar" data-percentage="90">
+                    <svg viewBox="0 0 36 36" class="circular-chart red">
+                      <path
+                        class="circle-bg"
+                        d="M18 2.0845
+                                     a 15.9155 15.9155 0 0 1 0 31.831
+                                     a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                      <path
+                        class="circle"
+                        stroke-dasharray="90, 100"
+                        d="M18 2.0845
+                                     a 15.9155 15.9155 0 0 1 0 31.831
+                                     a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                      <text x="18" y="20.35" class="percentage-text">90%</text>
+                    </svg>
+                    <div class="text">Creativity</div>
+                  </div>
+                  <div class="radial-bar" data-percentage="95">
+                    <svg viewBox="0 0 36 36" class="circular-chart red">
+                      <path
+                        class="circle-bg"
+                        d="M18 2.0845
+                                     a 15.9155 15.9155 0 0 1 0 31.831
+                                     a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                      <path
+                        class="circle"
+                        stroke-dasharray="95, 100"
+                        d="M18 2.0845
+                                     a 15.9155 15.9155 0 0 1 0 31.831
+                                     a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                      <text x="18" y="20.35" class="percentage-text">95%</text>
+                    </svg>
+                    <div class="text">Communication</div>
+                  </div>
+                  <div class="radial-bar" data-percentage="95">
+                    <svg viewBox="0 0 36 36" class="circular-chart red">
+                      <path
+                        class="circle-bg"
+                        d="M18 2.0845
+                                     a 15.9155 15.9155 0 0 1 0 31.831
+                                     a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                      <path
+                        class="circle"
+                        stroke-dasharray="95, 100"
+                        d="M18 2.0845
+                                     a 15.9155 15.9155 0 0 1 0 31.831
+                                     a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                      <text x="18" y="20.35" class="percentage-text">95%</text>
+                    </svg>
+                    <div class="text">leadership</div>
+                  </div>
+                  <div class="radial-bar" data-percentage="95">
+                    <svg viewBox="0 0 36 36" class="circular-chart red">
+                      <path
+                        class="circle-bg"
+                        d="M18 2.0845
+                                     a 15.9155 15.9155 0 0 1 0 31.831
+                                     a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                      <path
+                        class="circle"
+                        stroke-dasharray="95, 100"
+                        d="M18 2.0845
+                                     a 15.9155 15.9155 0 0 1 0 31.831
+                                     a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                      <text x="18" y="20.35" class="percentage-text">95%</text>
+                    </svg>
+                    <div class="text">TeamWork</div>
+                  </div>
+                  <div class="radial-bar" data-percentage="95">
+                    <svg viewBox="0 0 36 36" class="circular-chart red">
+                      <path
+                        class="circle-bg"
+                        d="M18 2.0845
+                                     a 15.9155 15.9155 0 0 1 0 31.831
+                                     a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                      <path
+                        class="circle"
+                        stroke-dasharray="95, 100"
+                        d="M18 2.0845
+                                     a 15.9155 15.9155 0 0 1 0 31.831
+                                     a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                      <text x="18" y="20.35" class="percentage-text">95%</text>
+                    </svg>
+                    <div class="text">problem solving</div>
+                  </div>
+                  <div class="radial-bar" data-percentage="95">
+                    <svg viewBox="0 0 36 36" class="circular-chart red">
+                      <path
+                        class="circle-bg"
+                        d="M18 2.0845
+                                     a 15.9155 15.9155 0 0 1 0 31.831
+                                     a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                      <path
+                        class="circle"
+                        stroke-dasharray="95, 100"
+                        d="M18 2.0845
+                                     a 15.9155 15.9155 0 0 1 0 31.831
+                                     a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                      <text x="18" y="20.35" class="percentage-text">95%</text>
+                    </svg>
+                    <div class="text">Time Management</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-------===========project section start====================-------->
+        <section class="project-section" id="project">
+          <div class="container">
+            <div class="row">
+              <div class="section-tittle padd-15">
+                <h2>MyProjects</h2>
+              </div>
+            </div>
+            <div class="filter-buttons">
+              <button class="filter-btn" data-filter="all">All</button>
+              <button class="filter-btn" data-filter="web-development">
+                Web Development
+              </button>
+              <button class="filter-btn" data-filter="c-plus-plus">
+                C++ Projects
+              </button>
+              <button class="filter-btn" data-filter="networking">
+                Networking Projects
+              </button>
+            </div>
+
+            <div class="portfolio-gallery">
+              <!-- Web Development Projects -->
+              <div class="portfolio-box web-development show">
+                <div class="portfolio-img">
+                  <img
+                    src="images/cabservice with msaccess.png"
+                    alt="Cab Service with MS Access"
+                  />
+                </div>
+                <div class="portfolio-content">
+                  <h3>Cab Service with MS Access</h3>
+                  <p>Project description goes here.</p>
+                  <a
+                    href="https://github.com/Saraawan/cab_service"
+                    class="explore-more"
+                    >Explore More</a
+                  >
+                </div>
+              </div>
+
+              <div class="portfolio-box web-development show">
+                <div class="portfolio-img">
+                  <img
+                    src="images/cabservice with dbms.png"
+                    alt="Cab Service with MySQL"
+                  />
+                </div>
+                <div class="portfolio-content">
+                  <h3>Cab Service with MySQL</h3>
+                  <p>Project description goes here.</p>
+                  <a
+                    href="https://github.com/Saraawan/Road-Rangers-Cab-Service-Management-System"
+                    class="explore-more"
+                    >Explore More</a
+                  >
+                </div>
+              </div>
+
+              <div class="portfolio-box web-development show">
+                <div class="portfolio-img">
+                  <img src="images/recipe spot.png" alt="Recipe Spot Finder" />
+                </div>
+                <div class="portfolio-content">
+                  <h3>Recipe Spot Finder</h3>
+                  <p>Project description goes here.</p>
+                  <a
+                    href="https://github.com/Saraawan/Recipe-Spot-Finder"
+                    class="explore-more"
+                    >Explore More</a
+                  >
+                </div>
+              </div>
+
+              <!-- C++ Projects -->
+              <div class="portfolio-box c-plus-plus show">
+                <div class="portfolio-img">
+                  <img
+                    src="images/daewoobus.png"
+                    alt="Daewoo Reservation System using DSA Algorithms"
+                  />
+                </div>
+                <div class="portfolio-content">
+                  <h3>Daewoo Reservation System using DSA Algorithms</h3>
+                  <p>Project description goes here.</p>
+                  <a
+                    href="https://github.com/Saraawan/Daewoo-Bus-Reservation-System"
+                    class="explore-more"
+                    >Explore More</a
+                  >
+                </div>
+              </div>
+
+              <div class="portfolio-box c-plus-plus show">
+                <div class="portfolio-img">
+                  <img
+                    src="images/chessgame.png"
+                    alt="Chess Game using DSA Concepts"
+                  />
+                </div>
+                <div class="portfolio-content">
+                  <h3>Chess Game using DSA Concepts</h3>
+                  <p>Project description goes here.</p>
+                  <a
+                    href="https://github.com/Saraawan/Chess-Game"
+                    class="explore-more"
+                    >Explore More</a
+                  >
+                </div>
+              </div>
+
+              <div class="portfolio-box c-plus-plus show">
+                <div class="portfolio-img">
+                  <img
+                    src="images/food ordering.png"
+                    alt="Food Ordering System"
+                  />
+                </div>
+                <div class="portfolio-content">
+                  <h3>Food Ordering System</h3>
+                  <p>Project description goes here.</p>
+                  <a
+                    href="https://github.com/Saraawan/project-1"
+                    class="explore-more"
+                    >Explore More</a
+                  >
+                </div>
+              </div>
+
+              <!-- Networking Projects -->
+              <div class="portfolio-box networking show">
+                <div class="portfolio-img">
+                  <img
+                    src="images/campusnetworkingsystem.png"
+                    alt="University Campus Networking"
+                  />
+                </div>
+                <div class="portfolio-content">
+                  <h3>University Campus Networking</h3>
+                  <p>Project description goes here.</p>
+                  <a
+                    href="https://github.com/Saraawan/University-Campus-Networking"
+                    class="explore-more"
+                    >Explore More</a
+                  >
+                </div>
+              </div>
+
+              <div class="portfolio-box networking show">
+                <div class="portfolio-img">
+                  <img
+                    src="images/door look.png"
+                    alt="Password-Based Door Locking System using Arduino"
+                  />
+                </div>
+                <div class="portfolio-content">
+                  <h3>Password-Based Door Locking System using Arduino</h3>
+                  <p>Project description goes here.</p>
+                  <a
+                    href="https://github.com/Saraawan/Smart-Door-Lock-System"
+                    class="explore-more"
+                    >Explore More</a
+                  >
+                </div>
+              </div>
+
+              <div class="portfolio-box networking show">
+                <div class="portfolio-img">
+                  <img
+                    src="images/carparkingsystem.png"
+                    alt="Car Parking System by Applying the Concept of OS"
+                  />
+                </div>
+                <div class="portfolio-content">
+                  <h3>Car Parking System by Applying the Concept of OS</h3>
+                  <p>Project description goes here.</p>
+                  <a
+                    href="https://github.com/Saraawan/Car-Parking-System"
+                    class="explore-more"
+                    >Explore More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-------===========project section end====================-------->
+        <!-------===========contact section start====================-------->
+        <section class="contact section" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="section-tittle padd-15">
+                <h2>Contact<span>Me</span></h2>
+              </div>
+            </div>
+            <h3 class="contact-title padd-15">Have You Any Question ?</h3>
+            <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+            <div class="row">
+              <!----------------contact info item start------------------>
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-phone"></i></div>
+                <h4>Call us on</h4>
+                <p>+923080017227</p>
+              </div>
+              <!----------------contact info item end------------------>
+              <!----------------contact info item start------------------>
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                <h4>Email</h4>
+                <p>saratari62@gmail.com</p>
+              </div>
+              <!----------------contact info item end------------------>
+              <!----------------contact info item start------------------>
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                <h4>Github</h4>
+                <p>github.com/Saraawan</p>
+              </div>
+              <!----------------contact info item end------------------>
+            </div>
+            <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+            <h4 class="contact-sub-title padd-15">
+              I'M VERY RESPONSIVE TO MESSAGES
+            </h4>
+            <!-----------contact form------------>
+            <div class="row">
+              <div class="contact-form padd-15">
+                <form action="" id="contactForm">
+                  <!------------<div class="alert">Your message sent</div>------>
+                  <div class="row">
+                    <div class="form-item col-6 padd-15">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          id="name"
+                          class="form-control"
+                          placeholder="Name"
+                        />
+                      </div>
+                    </div>
+                    <div class="form-item col-6 padd-15">
+                      <div class="form-group">
+                        <input
+                          type="email"
+                          id="email"
+                          class="form-control"
+                          placeholder="Email"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="form-item col-12 padd-15">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          id="subject"
+                          class="form-control"
+                          placeholder="Subject"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="form-item col-12 padd-15">
+                      <div class="form-group">
+                        <textarea
+                          name=""
+                          class="form-control"
+                          id="message"
+                          placeholder="Message"
+                        ></textarea>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="form-item col-12 padd-15">
+                      <div class="form-group">
+                        <button type="submit" id="submit" class="btn">
+                          Submit
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-------------==============contact section end=============----------------->
+      <!-------------------style switcher start---------------------->
+      <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+          <i class="fas fa-cog fa-spin"></i>
+        </div>
+
+        <div class="day-night s-icon">
+          <i class="fas fa-moon"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+          <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+          <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+          <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+          <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+          <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+      </div>
+    </div>
+    <!--==========Main content end===============-->
+    <!---============Main container End================-->
+    <!-- ===== JS Files ===== -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const filterButtons = document.querySelectorAll(".filter-btn");
+        const portfolioBoxes = document.querySelectorAll(".portfolio-box");
+
+        filterButtons.forEach((button) => {
+          button.addEventListener("click", () => {
+            const filter = button.getAttribute("data-filter");
+
+            portfolioBoxes.forEach((box) => {
+              if (filter === "all" || box.classList.contains(filter)) {
+                box.classList.add("show");
+              } else {
+                box.classList.remove("show");
+              }
+            });
+          });
+        });
+      });
+    </script>
+    <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
+  </body>
+</html>
